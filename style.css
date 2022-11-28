@@ -1,0 +1,115 @@
+body {
+  width:960px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: auto;
+  width: auto;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/dc142d4b827b956bfcbe5ab1baef9d1e.jpg");
+
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  align-content: center;
+  color: white;
+  background: #0096FF;
+  margin-bottom: 50px;
+
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+}
+
+.shed { grid-area: 1 / 1 / 2 / 2;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/402da8180783e5f7305896e6b803f37f.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  vertical-align:middle; }
+
+.dog { grid-area: 1 / 2 / 2 / 4;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/fecc1611e13b25035e84da3cfdf42278.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  vertical-align:middle; }
+
+.fly-high { grid-area: 2 / 1 / 4 / 3;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/5c1baabfe00ed28076f05233b01eeef1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  opacity: .3;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  vertical-align:middle; }
+
+.backpack { grid-area: 2 / 3 / 3 / 4;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/7600089cbb532952a17e90d3e8cec793.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  vertical-align:middle; }
+
+
+.cross { grid-area: 3 / 3 / 4 / 4;
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/89e02a47e2e1a898c5727492af5748e0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+ height: auto;
+  width: auto;
+  vertical-align:middle; }
+
+
+
+.testimonial {
+  background-image: url("file:///Users/taylorweirtz/Desktop/sandbox/snow-mountain.xd%20(Unzipped%20Files)/resources/57170d3d0875233cb3ba434e61a8d0ec.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  vertical-align:middle;
+}
+
+.link {
+  color: gray;
+  font-size: 10px;
+  padding: 2px;
+  background-color: white;
+  border: 2px #D3D3D3 solid;
+  border-spacing:10px;
+  margin: auto;
+  max-width:400px;
+  max-height: 200px;
+  line-height:2;
+}
+
+
